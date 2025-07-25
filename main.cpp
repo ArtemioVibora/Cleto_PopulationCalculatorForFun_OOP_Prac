@@ -2,6 +2,8 @@
 
 using namespace std;
 
+//TO DO: REFRACTOR THIS TO LE LIBRARY
+
 class City {
 private:
     string cityName;
@@ -20,8 +22,10 @@ public:
         cout << cityName << " has " << numOfBlocks << " blocks" << endl;
     }
 
+    //Screw it, gonna do some setters and getters
     void getNumOfBlocks() {
-
+        cout << "Give the number of blocks: ";
+        cin >> numOfBlocks;
     }
 
 };
